@@ -18,7 +18,6 @@ export default function Index(){
 
     function copy(){
         const textClip = document.getElementById('shortened');
-        console.log(textClip);
         textClip.select();
         document.execCommand("copy");
     }
