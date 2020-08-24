@@ -1,17 +1,40 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './index.css';
 import Api from './../../services/api';
+import {FiCopy} from 'react-icons/fi'
 
 export default function Index(){
 
-    async function shorten(){
-        //const res = await Api.post();
+    const [url, setUrl] = useState("");
+    const [hash, setHash] = useState("");
+
+    async function shorten(e){
+        e.preventDefault();
+        const res = await Api.post("", {
+            "url": url
+        });
+        setHash("https://rel.ink/"+res.data.hashid);
+    }
+
+    function copy(){
+        const textClip = document.getElementById('shortened');
+        console.log(textClip);
+        textClip.select();
+        document.execCommand("copy");
     }
 
     return(
         <div className='container'>
             <section className='urlSection'>
-                <input type='text' name='url' className='url'/>
+                <form onSubmit={shorten}>
+                    <input value={url} onInput={e => {setUrl(e.target.value)}} type='text' name='url' className='url'/>
+                </form>
+            </section>
+            <section className='shortenedSection'>
+                {
+                    hash ? <div className='clipboard'><FiCopy className='copyIcon'/><input className='shortened' id='shortened' value={hash} onClick={copy}/></div> : ""
+                }
+                
             </section>
         </div>
     );

@@ -1,9 +1,11 @@
 .urlSection{
     position: relative;
+    margin-bottom: 15vh;
 }
 
 .container{
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100vh;
@@ -18,4 +20,38 @@
     font-size: 5vh;
     padding-left: 3vh;
     background-color: #d4d0f3;
+}
+
+.links{
+    color: white;
+}
+
+.shortenedSection{
+    color: #d4d0f3
+}
+
+.shortened{
+    height: 7vh;
+    width: 40vh;
+    font-size: 3vh;
+    border-radius: 5vh;
+    text-align: center;
+    padding-left: 3vh;
+    cursor: pointer;
+}
+
+.copyIcon{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 3vh;
+    width: 5vh;
+    margin-left: 2vh;
+    color: black;
+    cursor: pointer;
+}
+
+.clipboard{
+    position: relative;
 }
