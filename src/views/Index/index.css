@@ -17,7 +17,8 @@
     border-radius: 20vh;
     height: 7vh;
     width: 130vh;
-    font-size: 5vh;
+    font-size: 3vh;
+    text-align: left;
     padding-left: 3vh;
     background-color: #d4d0f3;
 }
@@ -54,4 +55,23 @@
 
 .clipboard{
     position: relative;
+}
+
+.titleSection{
+    margin-bottom: 7vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titleLabel{
+    color: White;
+    font-size: 5vh;
+    margin-bottom: 1vh;
+}
+
+.descriptionLabel{
+    color: white;
+    font-size: 2.5vh;
+    font-weight: 200;
 }
