@@ -7,19 +7,25 @@ export default function Index(){
 
     const [url, setUrl] = useState("");
     const [hash, setHash] = useState("");
+    const [job, setJob] = useState("");
 
     async function shorten(e){
         e.preventDefault();
-        const res = await Api.post("", {
-            "url": url
-        });
-        setHash("https://rel.ink/"+res.data.hashid);
+        try{
+            const res = await Api.post("", {
+                "url": url
+            });
+            setHash("https://rel.ink/"+res.data.hashid);
+        }catch(e){
+            setJob("Oops! Communication failure with API");
+        }
     }
 
     function copy(){
         const textClip = document.getElementById('shortened');
         textClip.select();
         document.execCommand("copy");
+        setJob("URL copied successfully!");
     }
 
     return(
@@ -36,6 +42,9 @@ export default function Index(){
             <section className='shortenedSection'>
                 {
                     hash ? <div className='clipboard'><FiCopy className='copyIcon'/><input className='shortened' id='shortened' value={hash} onClick={copy}/></div> : ""
+                }
+                {
+                    <h4 className='jobLabel'>{job}</h4>
                 }
             </section>
         </div>
