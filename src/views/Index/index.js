@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './index.css';
 import Api from './../../services/api';
-import {FiCopy} from 'react-icons/fi'
+import {FiCopy, FiLink} from 'react-icons/fi'
 
 export default function Index(){
 
@@ -36,7 +36,7 @@ export default function Index(){
             </section>
             <section className='urlSection'>
                 <form onSubmit={shorten}>
-                    <input value={url} onInput={e => {setUrl(e.target.value)}} type='text' name='url' className='url' placeholder='Paste your URL here'/>
+                    <input value={url} onInput={e => {setUrl(e.target.value)}} type='text' name='url' className='url' placeholder='Paste your URL here'/><button type='submit' className='btnEnter'><FiLink className='enterIcon'/></button>
                 </form>
             </section>
             <section className='shortenedSection'>
