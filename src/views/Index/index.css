@@ -1,6 +1,15 @@
+body{
+    background-image: linear-gradient(#07071f, #232b93, #676693);
+}
+
 .urlSection{
     position: relative;
     margin-bottom: 4vh;
+}
+
+.character{
+    width: 90vh;
+    height: 50vh;
 }
 
 form{
@@ -15,7 +24,6 @@ form{
     justify-content: center;
     height: 100vh;
     width: 100%;
-    background-color: #232B93;
 }
 
 .btnEnter{

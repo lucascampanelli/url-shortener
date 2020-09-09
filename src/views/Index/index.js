@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './index.css';
 import Api from './../../services/api';
 import {FiCopy, FiLink} from 'react-icons/fi'
+import {ReactComponent as Illustration} from './../Illustrations/linkshort.svg';
 
 export default function Index(){
 
@@ -30,6 +31,7 @@ export default function Index(){
 
     return(
         <div className='container'>
+            <Illustration className='character' title='' width='500' height='500'/>
             <section className='titleSection'>
                 <h1 className='titleLabel'>URL Shortener</h1>
                 <h3 className='descriptionLabel'>Do more with short and recognizable URLs with one click</h3>
