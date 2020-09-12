@@ -1,6 +1,6 @@
 <p align="center">
   <a href="" rel="noopener">
-  <img width=200px height=200px src="https://github.com/lucascampanelli/url-shortener/blob/master/src/views/Illustrations/logoicon.svg">
+  <img width=200px height=200px src="https://github.com/lucascampanelli/url-shortener/blob/master/src/views/Illustrations/logoicon.svg?raw=true">
  </a>
 </p>
 
@@ -29,7 +29,7 @@
 
 ## 🧐 About <a name = "about"></a>
 
-URL Shortener is a application made for people who needs to shorten links and make them recognizable.
+URL Shortener is a application made for people who needs to shorten URLs and make them recognizable.
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
@@ -48,45 +48,35 @@ You'll need to have <b>Node</b> installed in your machine to be able to install 
 ```
 HOME
 ```
-This page shows a form to sign up for the application and a button to redirect you to login page.
- <img src="https://github.com/lucascampanelli/MySecretFriend/blob/master/signupView.png?raw=true">
+This page shows an input for insert the URL you want to shorten.
+<br>
+<br>
+ <img src="https://github.com/lucascampanelli/url-shortener/blob/master/src/views/Illustrations/Captura%20de%20Tela%20(13).png?raw=true">
  <br>
-```
-LOGIN
-```
-This page shows a form to sign in.
- <img src="https://github.com/lucascampanelli/MySecretFriend/blob/master/loginView.png?raw=true">
  <br>
-```
-DASHBOARD
-```
-Shows user groups. This page has sections such as user configuration and group creation.
- <img src="https://github.com/lucascampanelli/MySecretFriend/blob/master/dashboardView.png?raw=true">
+ <img src="https://github.com/lucascampanelli/url-shortener/blob/master/src/views/Illustrations/Captura%20de%20Tela%20(14).png?raw=true">
  <br>
-```
-RAFFLE
-```
-Section to create a secret santa. It has a form to type all the information about the raffle.
- <img src="https://github.com/lucascampanelli/MySecretFriend/blob/master/raffleView.png?raw=true">
- <img src="https://github.com/lucascampanelli/MySecretFriend/blob/master/raffleexampleView.png?raw=true">
  <br>
-```
-PASSWORD RECOVER
-```
-If necessary, this page sends an e-mail verification to recover the user's password.
- <img src="https://github.com/lucascampanelli/MySecretFriend/blob/master/passwdrecoverView.png?raw=true">
+When you click the shorten button of the input, the page shows a button with your URL shortened
+<br>
+<br>
+<img src="https://github.com/lucascampanelli/url-shortener/blob/master/src/views/Illustrations/Captura%20de%20Tela%20(16).png?raw=true">
  <br>
+ <br>
+If you click this button, the URL shortened will be copied to your clipboard
+<br>
+<br>
+<img src="https://github.com/lucascampanelli/url-shortener/blob/master/src/views/Illustrations/Captura%20de%20Tela%20(18).png?raw=true">
 
 
 ## ⛏️ Built Using <a name = "built_using"></a>
 
-- [XAMPP](https://www.apachefriends.org/pt_br/index.html) - Package
+- [Relink](https://rel.ink/) - API to generate short links
 - [VSCODE](https://code.visualstudio.com/) - Code editor
-- [Composer](https://getcomposer.org/) - Package manager
-- [Router](https://github.com/robsonvleite/router) - Library
-- [Data Layer](https://github.com/robsonvleite/datalayer) - Library
-- [PHPMailer](https://github.com/PHPMailer/PHPMailer) - Library
-- [phpdotenv](https://github.com/vlucas/phpdotenv) - Library
+- [Node](https://nodejs.org/en/) - JavaScript Runtime
+- [npm](https://www.npmjs.com/) - Package Manager
+- [unDraw](https://undraw.co/) - Open source illustrations
+- [Feather](https://feathericons.com/) - Open source icons
 
 ## ✍️ Authors <a name = "authors"></a>
 
