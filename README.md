@@ -24,6 +24,7 @@
 - [About](#about)
 - [Getting Started](#getting_started)
 - [Usage](#usage)
+- [Responsive](#responsive)
 - [Built Using](#built_using)
 - [Authors](#authors)
 
@@ -68,7 +69,15 @@ If you click this button, the URL shortened will be copied to your clipboard
 <br>
 <img src="https://github.com/lucascampanelli/url-shortener/blob/master/src/views/Illustrations/Captura%20de%20Tela%20(18).png?raw=true">
 
+## 📱 Responsive <a name="responsive"></a>
 
+You can use this web page in any device!
+<br>
+<br>
+<img src="https://github.com/lucascampanelli/url-shortener/blob/master/src/views/Illustrations/Captura%20de%20Tela%20(19).png?raw=true">
+<br>
+<br>
+<img src="https://github.com/lucascampanelli/url-shortener/blob/master/src/views/Illustrations/Captura%20de%20Tela%20(20).png?raw=true">
 ## ⛏️ Built Using <a name = "built_using"></a>
 
 - [Relink](https://rel.ink/) - API to generate short links
