@@ -7,7 +7,10 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   sodipodi:docname="logoicon.svg"
+   inkscape:export-ydpi="96"
+   inkscape:export-xdpi="96"
+   inkscape:export-filename="C:\xampp\htdocs\url-shortener\frontend\src\views\Illustrations\logo.png"
+   sodipodi:docname="logo.svg"
    inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
    id="svg8"
    version="1.1"
@@ -27,7 +30,7 @@
      units="px"
      showgrid="false"
      inkscape:document-rotation="0"
-     inkscape:current-layer="layer2"
+     inkscape:current-layer="layer1"
      inkscape:document-units="mm"
      inkscape:cy="220.86766"
      inkscape:cx="90.837201"
@@ -36,7 +39,7 @@
      inkscape:pageopacity="0"
      borderopacity="1.0"
      bordercolor="#666666"
-     pagecolor="#000000"
+     pagecolor="#ffffff"
      id="base" />
   <metadata
      id="metadata5">
@@ -64,37 +67,37 @@
          id="path857" />
     </g>
     <g
-       transform="matrix(-1.60708,-1.0676626,1.0676626,-1.60708,96.819968,123.84677)"
+       transform="matrix(-2.0715238,-1.3762156,1.3762156,-2.0715238,98.628657,133.06073)"
        id="g946"
-       style="fill:none;stroke:#ffffff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+       style="fill:#000000;fill-opacity:1;stroke:#050022;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
       <circle
-         style="stroke:#ffffff;stroke-opacity:1"
+         style="fill:#000000;fill-opacity:1;stroke:#050022;stroke-opacity:1"
          cx="6"
          cy="6"
          r="3"
          id="circle923" />
       <circle
-         style="stroke:#ffffff;stroke-opacity:1"
+         style="fill:#000000;fill-opacity:1;stroke:#050022;stroke-opacity:1"
          cx="6"
          cy="18"
          r="3"
          id="circle925" />
       <line
-         style="stroke:#ffffff;stroke-opacity:1"
+         style="fill:#000000;fill-opacity:1;stroke:#050022;stroke-opacity:1"
          x1="20"
          y1="4"
          x2="8.1199999"
          y2="15.88"
          id="line927" />
       <line
-         style="stroke:#ffffff;stroke-opacity:1"
+         style="fill:#000000;fill-opacity:1;stroke:#050022;stroke-opacity:1"
          x1="14.47"
          y1="14.48"
          x2="20"
          y2="20"
          id="line929" />
       <line
-         style="stroke:#ffffff;stroke-opacity:1"
+         style="fill:#000000;fill-opacity:1;stroke:#050022;stroke-opacity:1"
          x1="8.1199999"
          y1="8.1199999"
          x2="12"

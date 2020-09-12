@@ -1,6 +1,6 @@
 <p align="center">
   <a href="" rel="noopener">
-  <img width=200px height=200px src="https://github.com/lucascampanelli/url-shortener/blob/master/src/views/Illustrations/logoicon.svg?raw=true">
+  <img width=200px height=200px src="https://github.com/lucascampanelli/url-shortener/blob/master/src/views/Illustrations/logo.svg?raw=true">
  </a>
 </p>
 
