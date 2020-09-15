@@ -30,7 +30,7 @@
 
 ## 🧐 About <a name = "about"></a>
 
-URL Shortener is a application made for people who needs to shorten URLs and make them recognizable.
+URL Shortener is a application made for people who need to shorten URLs and make them recognizable.
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
